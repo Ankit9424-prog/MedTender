@@ -1,0 +1,11 @@
+[project]
+name = "medtender-extractor"
+version = "0.2.0"
+description = "AI-assisted tender requirement extraction for Nepal medical procurement"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
